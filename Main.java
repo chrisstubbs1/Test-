@@ -7,13 +7,13 @@ public class Main {
     private static Scanner scan = new Scanner(System.in);
 
     public static void main(String[] args) {
-//        System.out.println("Enter the number of students");
-//        int size = scan.nextInt();
-//        Test[] tests = new Test[size];
-//        scan.nextLine();
-//
-//        populateTestArr(tests);
-//        printGrades(tests);
+        System.out.println("Enter the number of students");
+        int size = scan.nextInt();
+        Test[] tests = new Test[size];
+        scan.nextLine();
+
+        populateTestArr(tests);
+        printGrades(tests);
         new MainWindow();
     }
 
